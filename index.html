@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#04070d" />
+<title>我的网站 · 导航</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { min-height: 100%; }
+  body {
+    background: radial-gradient(120% 90% at 50% 0%, #0d1c30 0%, #060b14 55%, #03060b 100%);
+    color: #e9f1fb;
+    font-family: "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+    display: flex; flex-direction: column; align-items: center;
+    padding: calc(48px + env(safe-area-inset-top)) 18px calc(40px + env(safe-area-inset-bottom));
+    min-height: 100dvh;
+  }
+  h1 {
+    font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+    font-size: 34px; font-weight: 600; letter-spacing: 0.42em; text-indent: 0.2em;
+    background: linear-gradient(160deg, #f2f9ff 15%, #9cc8ef 55%, #4d7fc0 95%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .sub { margin-top: 12px; font-size: 13px; letter-spacing: 0.2em; color: #8ea6c8; }
+  .card {
+    width: min(460px, 100%); margin-top: 34px;
+    background: rgba(10, 17, 30, 0.55); border: 1px solid rgba(160, 200, 255, 0.12);
+    border-radius: 20px; padding: 26px 24px; text-align: center;
+    backdrop-filter: blur(16px) saturate(150%); -webkit-backdrop-filter: blur(16px) saturate(150%);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+  }
+  .card h2 {
+    font-family: "Noto Serif SC", "Songti SC", serif;
+    font-size: 26px; letter-spacing: 0.5em; text-indent: 0.25em; color: #f2f9ff;
+  }
+  .card .desc { margin-top: 12px; font-size: 13px; line-height: 2; color: #9db3d2; }
+  .card .tag {
+    display: inline-block; margin-top: 14px; padding: 4px 12px; border-radius: 99px;
+    font-size: 11px; letter-spacing: 0.15em; color: #6fd3ff;
+    border: 1px solid rgba(111, 211, 255, 0.35);
+  }
+  .btn {
+    display: block; width: 100%; margin-top: 22px; padding: 14px 0;
+    border: 0; border-radius: 99px; text-decoration: none;
+    background: linear-gradient(135deg, #6fd3ff, #3d7bff);
+    color: #04101e; font-size: 15px; font-weight: 700; letter-spacing: 0.35em; text-indent: 0.35em;
+  }
+  .btn:active { opacity: 0.85; }
+  .qr { margin-top: 22px; }
+  .qr img {
+    width: 132px; height: 132px; border-radius: 12px;
+    border: 1px solid rgba(160, 200, 255, 0.18); background: #fff; padding: 8px;
+  }
+  .qr p { margin-top: 8px; font-size: 11px; letter-spacing: 0.12em; color: #8ea6c8; }
+  .tips {
+    width: min(460px, 100%); margin-top: 26px; padding: 18px 20px;
+    border: 1px solid rgba(160, 200, 255, 0.08); border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .tips h3 { font-size: 13px; letter-spacing: 0.25em; color: #cfe0f5; margin-bottom: 10px; }
+  .tips li { list-style: none; font-size: 12.5px; line-height: 2.1; color: #8ea6c8; }
+  .tips li b { color: #cfe0f5; font-weight: 600; }
+  .foot { margin-top: 30px; font-size: 11px; letter-spacing: 0.2em; color: rgba(142, 166, 200, 0.5); }
+</style>
+</head>
+<body>
+  <h1>我的网站</h1>
+  <p class="sub">收藏这一个网址就够了 · 所有作品都从这里进</p>
+
+  <div class="card">
+    <span class="tag">最新作品</span>
+    <h2>沧 海</h2>
+    <p class="desc">用代码实时画出来的大海：<br>海浪、云霞、星空、日落全部程序生成，<br>可以自己调海浪大小和时间，手机电脑都能玩。</p>
+    <a class="btn" href="https://yjj0339.github.io/canghai/">进 入 沧 海</a>
+    <div class="qr">
+      <img src="qr-home.png" alt="本页二维码" />
+      <p>在电脑上看到本页？用手机相机扫一扫</p>
+    </div>
+  </div>
+
+  <div class="tips">
+    <h3>使 用 小 贴 士</h3>
+    <ul>
+      <li><b>手机上：</b>用微信或相机「扫一扫」二维码，立即打开；</li>
+      <li><b>想随时找到：</b>打开后点「收藏」或「添加到主屏幕」，以后一点就进；</li>
+      <li><b>电脑上：</b>记住 yjj0339.github.io 这一个地址就行，其他网站都会列在本页。</li>
+    </ul>
+  </div>
+
+  <p class="foot">由 ZCode 制作 · 持续更新中</p>
+</body>
+</html>
