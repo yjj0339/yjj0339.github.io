@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>页面走丢了 · 回到导航主页</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    background:radial-gradient(120% 90% at 50% 0%, #0d1c30 0%, #060b14 55%, #03060b 100%);
+    color:#e9f1fb;font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;text-align:center;padding:24px;
+  }
+  .zh{font-size:26px;letter-spacing:.35em;text-indent:.35em;font-weight:600;color:#f2f9ff}
+  .tip{margin-top:14px;font-size:13px;letter-spacing:.12em;color:#8ea6c8;line-height:2}
+  .btn{
+    display:inline-block;margin-top:26px;padding:13px 34px;border-radius:999px;
+    background:linear-gradient(135deg,#6fd3ff,#3d7bff);color:#04101e;text-decoration:none;
+    font-size:14px;letter-spacing:.3em;text-indent:.3em;font-weight:700;
+  }
+</style>
+<script>
+  // 任何打错的子路径都回导航主页
+  location.replace("https://yjj0339.github.io/");
+</script>
+</head>
+<body>
+  <div class="zh">页面走丢了</div>
+  <p class="tip">网址可能打错了，正在回「我的网站」导航主页…<br>如果没有自动跳转，点下面的按钮</p>
+  <a class="btn" href="https://yjj0339.github.io/">回 导 航 主 页</a>
+</body>
+</html>
