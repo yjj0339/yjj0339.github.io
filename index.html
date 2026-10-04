@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -416,3 +417,355 @@
   <p class="foot">由 ZCode 制作 · 持续更新中</p>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#04070d" />
+<title>我的网站 · 导航</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { min-height: 100%; }
+  body {
+    background: radial-gradient(120% 90% at 50% 0%, #0d1c30 0%, #060b14 55%, #03060b 100%);
+    color: #e9f1fb;
+    font-family: "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+    display: flex; flex-direction: column; align-items: center;
+    padding: calc(48px + env(safe-area-inset-top)) 18px calc(40px + env(safe-area-inset-bottom));
+    min-height: 100dvh;
+  }
+  h1 {
+    font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+    font-size: 34px; font-weight: 600; letter-spacing: 0.42em; text-indent: 0.2em;
+    background: linear-gradient(160deg, #f2f9ff 15%, #9cc8ef 55%, #4d7fc0 95%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .sub { margin-top: 12px; font-size: 13px; letter-spacing: 0.2em; color: #8ea6c8; }
+  .card {
+    width: min(460px, 100%); margin-top: 34px;
+    background: rgba(10, 17, 30, 0.55); border: 1px solid rgba(160, 200, 255, 0.12);
+    border-radius: 20px; padding: 26px 24px; text-align: center;
+    backdrop-filter: blur(16px) saturate(150%); -webkit-backdrop-filter: blur(16px) saturate(150%);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+  }
+  .card h2 {
+    font-family: "Noto Serif SC", "Songti SC", serif;
+    font-size: 26px; letter-spacing: 0.5em; text-indent: 0.25em; color: #f2f9ff;
+  }
+  .card .desc { margin-top: 12px; font-size: 13px; line-height: 2; color: #9db3d2; }
+  .card .tag {
+    display: inline-block; margin-top: 14px; padding: 4px 12px; border-radius: 99px;
+    font-size: 11px; letter-spacing: 0.15em; color: #6fd3ff;
+    border: 1px solid rgba(111, 211, 255, 0.35);
+  }
+  .btn {
+    display: block; width: 100%; margin-top: 22px; padding: 14px 0;
+    border: 0; border-radius: 99px; text-decoration: none;
+    background: linear-gradient(135deg, #6fd3ff, #3d7bff);
+    color: #04101e; font-size: 15px; font-weight: 700; letter-spacing: 0.35em; text-indent: 0.35em;
+  }
+  .btn:active { opacity: 0.85; }
+  .qr { margin-top: 22px; }
+  .qr img {
+    width: 132px; height: 132px; border-radius: 12px;
+    border: 1px solid rgba(160, 200, 255, 0.18); background: #fff; padding: 8px;
+  }
+  .qr p { margin-top: 8px; font-size: 11px; letter-spacing: 0.12em; color: #8ea6c8; }
+  .tips {
+    width: min(460px, 100%); margin-top: 26px; padding: 18px 20px;
+    border: 1px solid rgba(160, 200, 255, 0.08); border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .tips h3 { font-size: 13px; letter-spacing: 0.25em; color: #cfe0f5; margin-bottom: 10px; }
+  .tips li { list-style: none; font-size: 12.5px; line-height: 2.1; color: #8ea6c8; }
+  .tips li b { color: #cfe0f5; font-weight: 600; }
+  .foot { margin-top: 30px; font-size: 11px; letter-spacing: 0.2em; color: rgba(142, 166, 200, 0.5); }
+</style>
+</head>
+<body>
+  <h1>我的网站</h1>
+  <p class="sub">收藏这一个网址就够了 · 所有作品都从这里进</p>
+
+  <div class="card">
+    <span class="tag">最新作品</span>
+    <h2>云 桥 叠 翠</h2>
+    <p class="desc">参照重庆黄桷湾立交打造的五层互通立交桥 3D 大场景：<br>五层高架纵横交叠、20 条匝道四面八方互通，<br>环形匝道盘成苜蓿叶、两条螺旋匝道一升一降绕柱盘桥；<br>数十根混凝土桥墩撑起桥面，桥上车流不息，<br>路灯、金属护栏、绿色高速指路牌一应俱全；<br>桥下是绿地公园与池塘，远处城市楼群天际线延伸到雾里；<br>沥青磨损、混凝土水渍、云影漂移，写实白天光照。<br>六个机位一键切换：鸟瞰全貌 / 桥下仰视 / 螺旋匝道…</p>
+    <a class="btn" href="https://yjj0339.github.io/huangjuewan/" style="background: linear-gradient(135deg, #8fb4d4, #4a6b8a); color: #ffffff;">俯 瞰 立 交 桥</a>
+    <div class="qr">
+      <img src="qr-huangjuewan.png" alt="云桥叠翠二维码" />
+      <p>手机扫一扫，鸟瞰五层立交</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>数 独 大 师 100</h2>
+    <p class="desc">从入门到地狱的 100 关数独闯关，iOS 级玻璃质感新设计：<br>难度一关关爬坡——入门、新手、进阶、高手、大师、宗师，<br>第 100 关是仅 23 个提示的「地狱终局」，连 AI 也要动用深层推理；<br>AI 大师「玄机」全程陪练：只讲不填、指点一步、演示到底；<br>连续填对触发连击、行宫填满泛起光波、通关满屏彩带；<br>每天一道「每日挑战」特选题，点亮连续天数；<br>三套浅色主题、12 个成就、两级提示、笔记撤销；<br>手机竖屏 + 电脑宽屏三栏双端适配，进度自动存档。</p>
+    <a class="btn" href="https://yjj0339.github.io/sudoku-master-100/" style="background: linear-gradient(135deg, #5a7bff, #4f6ef7); color: #ffffff;">进 入 数 独</a>
+    <div class="qr">
+      <img src="qr-sudoku-master.png" alt="数独大师100二维码" />
+      <p>手机扫一扫，挑战百关</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>弹 幕 地 狱</h2>
+    <p class="desc">浅色 CRT 霓虹风纵版弹幕射击，连破三位几何 Boss：<br>粉三角·紫六边·橙红圆环，每位三阶段变换攻击模式；<br>旋转螺旋、环形、花形、自机狙、天降弹墙轮番上阵；<br>飞船中心是小判定点，贴着子弹飞可「擦弹」加分；<br>三残机三炸弹，炸弹清屏、击破 Boss 还补弹；<br>CRT 扫描线 + 全元素发光，音效全部实时合成；<br>电脑方向键/WASD，手机拖动+双击放炸弹。</p>
+    <a class="btn" href="https://yjj0339.github.io/danmaku-hell2/" style="background: linear-gradient(135deg, #12c2e0, #ef3f8f); color: #ffffff;">闯 入 弹 幕 地 狱</a>
+    <div class="qr">
+      <img src="qr-danmaku.png" alt="弹幕地狱二维码" />
+      <p>手机扫一扫，挑战弹幕地狱</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>烈 日 战 线</h2>
+    <p class="desc">明亮卡通风的第一人称射击，整个战场都是 AI 士兵：<br>你率蓝队 7 人打红队 7 人，AI 会巡逻寻路、侧移走位、追击声源；<br>突击步枪 / 霰弹枪 / 狙击枪（高倍开镜）/ 手枪加手雷轮着用；<br>后坐力与移动扩散、蹲射更稳、爆头双倍、连杀播报到「杀神降临」；<br>小地图上只有开过枪的敌人才暴露红点；<br>手机自动出摇杆和按键，电脑 WASD + 鼠标开打。</p>
+    <a class="btn" href="https://yjj0339.github.io/blazing-frontline/" style="background: linear-gradient(135deg, #ffb347, #e6552e); color: #ffffff;">进 入 战 线</a>
+    <div class="qr">
+      <img src="qr-blazing.png" alt="烈日战线二维码" />
+      <p>手机扫一扫，奔赴战场</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>方 块 世 界 · 生 存 史 诗</h2>
+    <p class="desc">《我的世界》第三代网页复刻，从零重写的生存史诗：<br>Blender 精细建模 8 种生物——僵尸追击、骷髅拉弓射箭、苦力怕点燃爆炸，<br>猪牛羊鸡吃小麦会恋爱繁殖，鸡还会下蛋；<br>合成 60+ 配方、五档工具、熔炉炼矿烤肉、弓箭弹道对射；<br>锄地种麦八段生长收麦做面包，骨粉一撒催熟；<br>天光火把双光照、昼夜星空、下雨天气、死亡掉落重生；<br>手机电脑都能玩，自动存档。</p>
+    <a class="btn" href="https://yjj0339.github.io/fangkuai-epic/" style="background: linear-gradient(135deg, #5aa84e, #2e7d32); color: #ffffff;">进 入 生 存 史 诗</a>
+    <div class="qr">
+      <img src="qr-fangkuai-epic.png" alt="方块世界生存史诗二维码" />
+      <p>手机扫一扫，开始生存</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <h2>认 知 罗 盘</h2>
+    <p class="desc">对标国际标准测验体系的专业认知评估，七维 CHC 框架：<br>流体推理（瑞文 APM 多规则矩阵）、视觉空间（心理旋转 3D 构型）、<br>定量推理（ICAR 数列）、言语推理（类比与论证）、逻辑推理（Wason）、<br>概率与理性（贝叶斯/辛普森悖论/期望值）、工作记忆（2-back + 倒叙广度）；<br>27 题全部源自发表过论文的经典范式，3D 构型经 24 旋转群数学验证，<br>测完给七维雷达图、百分位、元认知校准与达克对比，约 18 分钟。</p>
+    <a class="btn" href="https://yjj0339.github.io/cognition-compass/" style="background: linear-gradient(135deg, #B08D4A, #2E5E8C); color: #ffffff;">开 始 认 知 评 估</a>
+    <div class="qr">
+      <img src="qr-cognition-compass.png" alt="认知罗盘二维码" />
+      <p>手机扫一扫，测测认知水平</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>鹈 鹕 海 岸 骑 行</h2>
+    <p class="desc">戴船长帽的鹈鹕骑一辆薄荷青巡游自行车，<br>沿阳光海岸一直骑下去的全 3D 世界：<br>鹈鹕与自行车由 Blender 精细建模、带完整骨架：<br>蹬踏两骨 IK、七节围巾弹簧、喉囊物理、扇翅与跳跃；<br>Gerstner 海浪、棕榈街区、盘旋海鸥与跳鱼实时渲染；<br>点按打招呼、双击跳一下、拖拽自由视角，音效全合成。</p>
+    <a class="btn" href="https://yjj0339.github.io/pelican-coast-3d/" style="background: linear-gradient(135deg, #2ec4a6, #1f8fb5); color: #ffffff;">沿 海 岸 出 发</a>
+    <div class="qr">
+      <img src="qr-pelican-coast-3d.png" alt="鹈鹕海岸骑行二维码" />
+      <p>手机扫一扫，跟鹈鹕船长骑行</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>鹈 鹕 单 车 漫 游</h2>
+    <p class="desc">一只长嘴鹈鹕蹬着珊瑚红小单车穿越三种风景的全新动画：<br>纯 Canvas 2D 手绘，单文件零依赖，车筐里还带一条会摆尾的小鱼；<br>双腿两骨骼 IK 实时解算，膝盖朝向正确、脚踝随曲柄轻摆；<br>海滨大道的帆船与棕榈、金色田野的旋转风车与麦浪、<br>清晨城市的粉彩楼群与热气球，六层视差随车速一起后退；<br>拖滑块调速、按铃有真铃声，速度快了围巾会被风吹得飞起来。</p>
+    <a class="btn" href="https://yjj0339.github.io/pelican-pedal/" style="background: linear-gradient(135deg, #ff8a5c, #ffb43d); color: #43180a;">骑 上 小 单 车</a>
+    <div class="qr">
+      <img src="qr-pelican-pedal.png" alt="鹈鹕单车漫游二维码" />
+      <p>手机扫一扫，跟鹈鹕漫游</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag">上一件作品</span>
+    <h2>鹈 鹕 骑 行 · 海 滨 晨 风</h2>
+    <p class="desc">一只白鹈鹕蹬着青绿单车，沿海滨小路一路往前赶的全新动画：<br>长喙下垂着会晃的喉囊，黄眼睛、珊瑚色围巾随速度飘起来；<br>双腿用两骨 IK 实时解算，脚掌死死踩在踏板上真踩一圈圈；<br>车轮按「距离÷半径」滚动、齿比 2.35，轮子比脚转得快；<br>云、海面帆船、远山、树线、灌木、沙石路、前景野花六层视差后退；<br>轻点画面它还会整车跃起扇翅膀，车铃偶尔「叮铃」响一声。</p>
+    <a class="btn" href="https://yjj0339.github.io/pelican-cruise/" style="background: linear-gradient(135deg, #4fd0c0, #2b9ec9); color: #ffffff;">骑 上 海 滨 小 路</a>
+    <div class="qr">
+      <img src="qr-pelican-cruise.png" alt="鹈鹕骑行海滨晨风二维码" />
+      <p>手机扫一扫，看鹈鹕骑车</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag">上一件作品</span>
+    <h2>我 的 世 界</h2>
+    <p class="desc">致敬《Minecraft》的 3D 体素沙盒，v2 完整生存版：<br>撸树→合成→挖矿→冶炼全循环：背包 2x2 + 工作台 3x3 共 30+ 配方，<br>木/石/铁/金/钻五档工具带耐久，熔炉冶炼铁矿、烧玻璃烤肉；<br>火把真正的动态光照，洞穴又黑又暖；苦力怕会爆炸、僵尸白天燃烧；<br>饥饿值+饱食回血、床睡觉跳夜设重生点、箱子 27 格存储；<br>无限世界七群系、昼夜循环、成就系统、手机电脑都能玩、自动存档。</p>
+    <a class="btn" href="https://yjj0339.github.io/fangkuai-shijie/" style="background: linear-gradient(135deg, #7cbd4e, #5a8a3a); color: #ffffff;">进 入 方 块 世 界</a>
+    <div class="qr">
+      <img src="qr-fangkuai.png" alt="我的世界网页版二维码" />
+      <p>手机扫一扫，进入方块世界</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag">上一件作品</span>
+    <h2>泰 拉 物 语</h2>
+    <p class="desc">致敬《泰拉瑞亚》的 2D 沙盒冒险，手机电脑都能挖：<br>1200×400 程序化大世界——雪原、森林、沙漠、洞穴与地狱岩浆；<br>砍树建家、挖矿炼铁，工作台→熔炉→铁砧 27 种配方逐步升级；<br>白天史莱姆、夜晚僵尸与恶魔之眼，火把照亮黑暗的生存战；<br>合成「可疑眼球」召唤克苏鲁之眼，半血狂暴两阶段 Boss 战；<br>BFS 光照引擎 + 程序化像素画 + 合成音效，零依赖畅玩，自动存档。</p>
+    <a class="btn" href="https://yjj0339.github.io/taila-wuyu/" style="background: linear-gradient(135deg, #67a446, #2e7d32); color: #ffffff;">进 入 泰 拉 大 陆</a>
+    <div class="qr">
+      <img src="qr-taila.png" alt="泰拉物语二维码" />
+      <p>手机扫一扫，降临泰拉大陆</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag">上一件作品</span>
+    <h2>纸 上 江 南</h2>
+    <p class="desc">在宣纸山水之间，营造一座江南小镇的水墨经营游戏：<br>程序化山水每局不同——河流沃土、林地矿脉，可先预览再开局；<br>春种秋收、伐木采石，木匠锻工具、纸坊抄纸、瓷窑烧瓷；<br>人口就业幸福模拟、五档税赋、商行码头贸易、书院十大科技；<br>蝗灾火灾洪水山贼轮番考验，水井防火、望楼防盗、医馆防疫；<br>纯 Canvas 手绘水墨 + 合成古筝音效，手机电脑都能玩，自动存档。</p>
+    <a class="btn" href="https://yjj0339.github.io/ink-jiangnan/" style="background: linear-gradient(135deg, #b8543e, #7a2d20); color: #ffffff;">进 入 江 南</a>
+    <div class="qr">
+      <img src="qr-jiangnan.png" alt="纸上江南二维码" />
+      <p>手机扫一扫，营造江南</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>凌 云 起 飞</h2>
+    <p class="desc">凌云航空 B-2026 宽体客机的完整起飞全程实况：<br>Blender 精细建模的真 3D 客机——22 叶涡扇风扇、可收放起落架、<br>襟翼缝翼逐段联动、防撞灯翼尖频闪、天青飘带涂装；<br>登机 → 滑行 → 对正 → 全推力滑跑 → 抬轮 → 收架 → 穿云 → 云上巡航；<br>15 个导播机位自动运镜，WebAudio 实时合成引擎轰鸣，<br>经过云层那一瞬，白幕拂面，穿出即是云海。</p>
+    <a class="btn" href="https://yjj0339.github.io/takeoff-symphony/" style="background: linear-gradient(135deg, #37a5e0, #1b6fb8); color: #ffffff;">起 飞 了</a>
+    <div class="qr">
+      <img src="qr-takeoff.png" alt="凌云起飞二维码" />
+      <p>手机扫一扫，登机起飞</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>疾 驰 地 平 线</h2>
+    <p class="desc">致敬「极限竞速：地平线」的开放世界自由赛车：<br>跑车是 Blender 精细建模的真 3D 车模，清漆车漆实时反射天空；<br>大地图随便逛——都会高楼、四车道环线高速、海岸沙滩、嘉年华摩天轮；<br>手刹漂移积攒氮气、坡道飞跃拿空中奖励牌、测速点刷新极速纪录；<br>街上有来往车流，漂移、擦身、飞跃全都有技巧分。<br>手机自动出触屏按键，电脑 WASD 开车。</p>
+    <a class="btn" href="https://yjj0339.github.io/horizon-rush/" style="background: linear-gradient(135deg, #ff8a5c, #e63329); color: #ffffff;">进 入 嘉 年 华</a>
+    <div class="qr">
+      <img src="qr-horizon-rush.png" alt="疾驰地平线二维码" />
+      <p>手机扫一扫，踩下油门</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>怒 海 求 生</h2>
+    <p class="desc">开着小木船在无边大海上活下去的生存游戏：<br>打捞漂浮物资、停船撒网捕鱼、绕岛挖掘宝藏；<br>风向顺逆影响航速，细雨补淡水、雷暴有彩虹；<br>升级七项船只部件，跟着任务链扬帆远航；<br>海豚伴航、商筏交易、灯塔长明，终建巨轮通关。</p>
+    <a class="btn" href="https://yjj0339.github.io/nuhai/" style="background: linear-gradient(135deg, #6ec9f0, #1f7fb8); color: #ffffff;">出 海 求 生</a>
+    <div class="qr">
+      <img src="qr-nuhai.png" alt="怒海求生二维码" />
+      <p>手机扫一扫，扬帆出海</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">上一件作品</span>
+    <h2>无 可 挑 剔</h2>
+    <p class="desc">一页设计工具的发布会，像苹果官网那样干净大气：<br>雾白玻璃卡片、渐变大字、悬浮的 3D 产品面板，<br>评价卡片自己会轮播，常见问题点开就有答案；<br>点右上角的小月亮，还能换成深邃夜空模式。</p>
+    <a class="btn" href="https://yjj0339.github.io/impeccable/" style="background: linear-gradient(135deg, #7C3AED, #EC4899); color: #ffffff;">进 入 无 可 挑 剔</a>
+    <div class="qr">
+      <img src="qr-impeccable.png" alt="无可挑剔二维码" />
+      <p>手机扫一扫，逛发布会现场</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">更早作品</span>
+    <h2>旷 野 传 说</h2>
+    <p class="desc">打开就能玩的回合制冒险 RPG：<br>六张野外地图，从微风草原一路杀到苍穹神殿；<br>普通/精英/BOSS/暗金小Boss/关卡大Boss/终极龙王六档野怪；<br>装备随机词条、锻造强化+15、洗练打造暗金神装，<br>升级加点学技能，进度自动存档，手机电脑都能玩。</p>
+    <a class="btn" href="https://yjj0339.github.io/kuangye-chuanqi/" style="background: linear-gradient(135deg, #ffd873, #ff8c42);">进 入 旷 野 传 说</a>
+    <div class="qr">
+      <img src="qr-kuangye.png" alt="旷野传说二维码" />
+      <p>手机扫一扫，开始冒险</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">再早些</span>
+    <h2>鹈 鹕 骑 行 记</h2>
+    <p class="desc">「鹈鹕骑单车」的第三代全新重制：<br>单文件 SVG 纯手绘，双腿两段 IK 真实踩踏板，<br>海岸、乡野、山城三段风景三个场景，<br>骑得更稳、看得更远。</p>
+    <a class="btn" href="https://yjj0339.github.io/tihu-ride/" style="background: linear-gradient(135deg, #8fd6a0, #2e9e4f);">进 入 鹈 鹕 骑 行 记</a>
+    <div class="qr">
+      <img src="qr-tihu-ride.png" alt="鹈鹕骑行记二维码" />
+      <p>手机扫一扫，跟鹈鹕去兜风</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">早期作品</span>
+    <h2>鹈 鹕 兜 风 记</h2>
+    <p class="desc">一只白鹈鹕蹬着薄荷绿单车重新出发：<br>两条腿跟着脚踏一圈圈真踩，围巾随风飘、<br>车筐里小花乱颤，按铃「叮叮」作响，<br>还能一键把白天切换成温柔的黄昏。</p>
+    <a class="btn" href="https://yjj0339.github.io/tihu-bike/" style="background: linear-gradient(135deg, #7ee0d3, #45b7b0);">进 入 鹈 鹕 兜 风 记</a>
+    <div class="qr">
+      <img src="qr-tihu-bike.png" alt="鹈鹕兜风记二维码" />
+      <p>手机扫一扫，看鹈鹕兜风</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">怀旧小品</span>
+    <h2>鹈 鹕 骑 单 车</h2>
+    <p class="desc">一只大白鹈鹕蹬着红色单车去兜风：<br>长嘴驮着会晃的口袋，脖子上围巾一路飘，<br>车筐里还探出一条鱼。轮子飞转、双腿踩着踏板，<br>身后的云、公路、草地全在往后跑。</p>
+    <a class="btn" href="https://yjj0339.github.io/pelican-bike/" style="background: linear-gradient(135deg, #ffb86b, #ff7f9f);">进 入 鹈 鹕 骑 单 车</a>
+    <div class="qr">
+      <img src="qr-pelican-bike.png" alt="鹈鹕骑单车二维码" />
+      <p>手机扫一扫，看鹈鹕骑车</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">经典旧作</span>
+    <h2>苹 果 风 官 网</h2>
+    <p class="desc">一字一句、一图一画完全手写复刻的苹果官网：<br>磨砂导航栏、宇宙橙 iPhone 17 Pro、超薄 iPhone Air、<br>天蓝 MacBook Air、手表耳机头显六宫格、服务轮播。<br>所有产品图都是代码绘制,动效向官网看齐。</p>
+    <a class="btn" href="https://yjj0339.github.io/apple-cn/" style="background: linear-gradient(135deg, #6fb3ff, #0a63e0);">进 入 苹 果 风 官 网</a>
+    <div class="qr">
+      <img src="qr-apple-cn.png" alt="苹果风官网二维码" />
+      <p>手机扫一扫,直接逛官网</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">镇站旧作</span>
+    <h2>湖 畔 木 宅</h2>
+    <p class="desc">一栋临水而建的现代木宅：层层挑出的石板阳台、<br>木格栅幕墙、玻璃大厅和长草的屋顶；<br>门前一池静水，倒映着黄昏的光。<br>点「开始参观」，镜头会带你走进大门、<br>逐层逛完五层房间，最后上屋顶花园。</p>
+    <a class="btn" href="https://yjj0339.github.io/hupan-muzhai/" style="background: linear-gradient(135deg, #d8b06a, #a4713f);">进 入 湖 畔 木 宅</a>
+    <div class="qr">
+      <img src="qr-hupan-muzhai.png" alt="湖畔木宅二维码" />
+      <p>手机扫一扫，走到湖边</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">珍藏旧作</span>
+    <h2>光 色 花 园</h2>
+    <p class="desc">一滴粉色水珠落进浅水，荡开一圈圈彩色波纹；<br>波纹经过的地方，玻璃花朵一朵接一朵绽放；<br>花瓣舒展成彩带织成拱门，小球弹跳又点出新花。<br>一分钟循环动画，配上轻盈音乐，手机电脑都能看。</p>
+    <a class="btn" href="https://yjj0339.github.io/guangse-huayuan/" style="background: linear-gradient(135deg, #FF8B76, #FFB37E);">进 入 光 色 花 园</a>
+    <div class="qr">
+      <img src="qr-guangse-huayuan.png" alt="光色花园二维码" />
+      <p>手机扫一扫，直接进花园</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">人气旧作</span>
+    <h2>众 生 镇</h2>
+    <p class="desc">一座会呼吸的粒子小镇：24 位有名字、有记忆的魂火居民，<br>各自劳作、闲聊、传谣、在节日里围着喷泉起舞。<br>你是镇的神——说一句话，降流星、办丰年祭、改写他们的命运。</p>
+    <a class="btn" href="https://yjj0339.github.io/zhongshengzhen/">进 入 众 生 镇</a>
+    <div class="qr">
+      <img src="qr-zhongshengzhen.png" alt="众生镇二维码" />
+      <p>手机扫一扫，直接进镇</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top: 22px;">
+    <span class="tag">最早作品</span>
+    <h2>沧 海</h2>
+    <p class="desc">用代码实时画出来的大海：<br>海浪、云霞、星空、日落全部程序生成，<br>可以自己调海浪大小和时间，手机电脑都能玩。</p>
+    <a class="btn" href="https://yjj0339.github.io/canghai/" style="background: linear-gradient(135deg, #9cc8ef, #3d7bff);">进 入 沧 海</a>
+  </div>
+
+  <div class="tips">
+    <h3>使 用 小 贴 士</h3>
+    <ul>
+      <li><b>手机上：</b>用微信或相机「扫一扫」二维码，立即打开；</li>
+      <li><b>想随时找到：</b>打开后点「收藏」或「添加到主屏幕」，以后一点就进；</li>
+      <li><b>电脑上：</b>记住 yjj0339.github.io 这一个地址就行，其他网站都会列在本页。</li>
+    </ul>
+  </div>
+
+  <p class="foot">由 ZCode 制作 · 持续更新中</p>
+</body>
+</html>
+>>>>>>> 5a9daa0 (导航主页：新增「云桥叠翠」五层立交桥卡片)
